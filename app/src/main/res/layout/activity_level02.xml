@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level02">
+
+    <TableLayout
+        android:id="@+id/tableLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/image01"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="0"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image02"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="1"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image03"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="2"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image04"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="3"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image05"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="4"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image06"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="5"
+                app:srcCompat="@drawable/code" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/image07"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="6"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image08"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="7"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image09"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="8"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image10"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="9"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image11"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="10"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image12"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="11"
+                app:srcCompat="@drawable/code" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/image13"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="12"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image14"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="13"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image15"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="14"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image16"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="15"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image17"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="16"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image18"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="17"
+                app:srcCompat="@drawable/code" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/image19"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="18"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image20"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="19"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image21"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="20"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image22"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="21"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image23"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="22"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image24"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="23"
+                app:srcCompat="@drawable/code" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/image25"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="24"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image26"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="25"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image27"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="26"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image28"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="27"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image29"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="28"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image30"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="29"
+                app:srcCompat="@drawable/code" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/image31"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="30"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image32"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="31"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image33"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="32"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image34"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="33"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image35"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="34"
+                app:srcCompat="@drawable/code" />
+
+            <ImageButton
+                android:id="@+id/image36"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:onClick="click"
+                android:scaleType="fitCenter"
+                android:tag="35"
+                app:srcCompat="@drawable/code" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvTimer02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Left:"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout02"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/tvClicks02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Clicks: 0"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvPairs02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Pairs: 0/18"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
